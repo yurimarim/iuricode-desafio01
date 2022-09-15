@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   background-color: #F3F5F7
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
