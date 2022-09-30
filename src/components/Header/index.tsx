@@ -13,7 +13,7 @@ export function Header() {
                 <a href="https://discord.gg/QrbaK6hU" target="_blank" className="main-title">Codelândia</a>
               </li>
               <li>
-                <a href="#">blog</a>
+                <a href="#">blogg</a>
               </li>
             </ul>
           </HeaderNav>
