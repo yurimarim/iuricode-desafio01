@@ -8,7 +8,6 @@ export const HeaderContainer = styled.header`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 `
 
 export const HeaderWrapper = styled.div`
@@ -18,11 +17,11 @@ export const HeaderWrapper = styled.div`
   flex-direction: column;
   row-gap: 50px;
   padding: 1rem;
-  background: transparent;
+  /* background: transparent; */
 `
 
 export const HeaderNav = styled.nav`
-  background: transparent;
+  /* background: transparent; */
   ul {
     display: flex;
     justify-content: space-between;
@@ -37,16 +36,36 @@ export const HeaderNav = styled.nav`
 `
 
 export const InputWrapper = styled.div`
-  width: 100%;
+  /* width: 100%; */
+  width: 970px;
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 1rem;
+  padding: 1rem;  
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
-  /* background: transparent; */
 
   input {
     color: #fff;
+    font-size: 1.2rem;
+    width: 100%;
+    border: none;
+    background: transparent;
+
+    &:focus {
+      outline: none;
+    }
+    
+    &::placeholder {
+      color: #fff;
+      opacity: 0.5;
+    }
   }
-`
+
+  @media (max-width: 600px) {
+    input {
+      color: #fff;
+      font-size: 0.875rem;
+    }
+  }
+`;

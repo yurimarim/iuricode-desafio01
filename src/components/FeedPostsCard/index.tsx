@@ -3,8 +3,8 @@ import { postsMock } from '../../mock/postsMock'
 
 export function FeedPostsCard() {
   return(
-    <div>
-      {
+    <div style={{backgroundColor: '#f1f'}}>
+      {/* {
         postsMock.map((item) => (
           <div key={item.id}>
             <h1>{item.date}</h1>
@@ -13,7 +13,11 @@ export function FeedPostsCard() {
             <h1><br></br></h1>
           </div>
         ))
-      }
+      } */}
+      <h1>teste</h1>
+      <h1>teste</h1>
+      <h1>teste</h1>
+      <h1>teste</h1>
     </div>
   )
 }
